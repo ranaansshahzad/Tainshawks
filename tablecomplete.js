@@ -8,6 +8,13 @@ const TableHeader = () =>{
             <th> First Name</th>
             <th>LastName</th>
             <th>City</th>
+            <th>State</th>
+            <th>Gender</th>
+            <th>StudentStatus</th>
+            <th>Country</th>
+            <th>Age</th>
+            <th>Grade</th>
+
           </tr>
         </thead>
   )
@@ -21,6 +28,13 @@ const TableBody = (props) => {
                 <td>{data.FirstName}</td>
                 <td>{data.LastName}</td>
                 <td>{data.City}</td>
+                <td>{data.State}</td>
+                <td>{data.Gender}</td>
+                <td>{data.StudentStatus}</td>
+                <td>{data.Country}</td>
+                <td>{data.Age}</td>
+                <td>{data.Grade}</td>
+
                 
 
             </tr>
